@@ -1,69 +1,82 @@
 {
+  "counters": {
+    "u_column": 1,
+    "u_row": 1,
+    "u_content_html": 1
+  },
   "body": {
+    "id": "body",
     "rows": [
       {
-        "type": "row",
-        "columns": [
-          {
-            "id": 1,
-            "contents": [
-              {
-                "type": "text",
-                "values": {
-                  "fontSize": "24px",
-                  "color": "#000000",
-                  "align": "center",
-                  "lineHeight": "1.2",
-                  "containerPadding": "10px",
-                  "text": "Sample Text"
-                },
-                "id": "u_content_text_0_0_0"
-              }
-            ],
-            "values": {
-              "width": 12
-            },
-            "metadata": {
-              "id": "u_column_0_0"
-            }
-          }
-        ],
-        "backgroundColor": "#ffffff",
-        "paddingTop": "30px",
-        "paddingBottom": "30px",
-        "borderTop": {
-          "style": "solid",
-          "width": "1px",
-          "color": "#0000ee"
-        },
-        "borderBottom": {
-          "style": "solid",
-          "width": "1px",
-          "color": "#0000ee"
-        },
-        "values": {
-          "backgroundColor": "transparent",
-          "backgroundImage": {
-            "url": "",
-            "fullWidth": true,
-            "repeat": "no-repeat",
-            "center": true,
-            "cover": false
-          },
-          "padding": "10px",
-          "columnsBackgroundColor": "transparent"
-        },
+        "id": "row_1",
         "cells": [
           1
         ],
-        "metadata": {
-          "id": "u_row_0"
+        "columns": [
+          {
+            "id": "column_1",
+            "contents": [
+              {
+                "id": "html_1",
+                "type": "html",
+                "values": {
+                  "html": "<body>\n<center><h1>502 Bad Gateway</h1></center>\n</body>",
+                  "containerPadding": "10px",
+                  "_meta": {
+                    "htmlID": "u_content_html_1",
+                    "htmlClassNames": "u_content_html"
+                  }
+                }
+              }
+            ],
+            "values": {
+              "backgroundColor": "",
+              "padding": "0px",
+              "border": {},
+              "_meta": {
+                "htmlID": "u_column_1",
+                "htmlClassNames": "u_column"
+              }
+            }
+          }
+        ],
+        "values": {
+          "displayCondition": null,
+          "columns": false,
+          "backgroundColor": "",
+          "columnsBackgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "fullWidth": true,
+            "repeat": false,
+            "center": true,
+            "cover": false
+          },
+          "padding": "0px",
+          "hideDesktop": false,
+          "_meta": {
+            "htmlID": "u_row_1",
+            "htmlClassNames": "u_row"
+          },
+          "selectable": true,
+          "draggable": true,
+          "duplicatable": true,
+          "deletable": true,
+          "hideable": true
         }
       }
     ],
     "values": {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#e7e7e7",
+      "backgroundImage": {
+        "url": "",
+        "fullWidth": true,
+        "repeat": false,
+        "center": true,
+        "cover": false
+      },
       "contentWidth": "600px",
+      "contentAlign": "center",
       "fontFamily": {
         "label": "Arial",
         "value": "arial,helvetica,sans-serif"
@@ -72,19 +85,15 @@
       "linkStyle": {
         "body": true,
         "linkColor": "#0000ee",
-        "linkUnderline": true
+        "linkHoverColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverUnderline": true
+      },
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
       }
     }
-  },
-  "counters": {
-    "u_row": 1,
-    "u_column": 1,
-    "u_content_text": 1,
-    "u_content_image": 0,
-    "u_content_button": 0,
-    "u_content_divider": 1,
-    "u_content_social": 1,
-    "u_content_html": 1
   },
   "schemaVersion": 16
 }
